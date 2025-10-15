@@ -3,8 +3,8 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 
 // --- SUPABASE SETUP ---
 // IMPORTANT: Replace with your actual Supabase Project URL and Anon Key
-const supabaseUrl = 'https://mrarxxudjfnmcfqhnjlm.supabase.co'; // Found in Project Settings > API
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1yYXJ4eHVkamZubWNmcWhuamxtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk4MTUxMDQsImV4cCI6MjA3NTM5MTEwNH0.mxQVU_Wsd_0_v604RCQMNimxJKFRMjVmazKXn_x5Qlw'; // Found in Project Settings > API
+const supabaseUrl = 'SUPAURL'; // Found in Project Settings > API
+const supabaseAnonKey = 'SUPABASEANONKEY'; // Found in Project Settings > API
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 // --- SVG ICONS ---
